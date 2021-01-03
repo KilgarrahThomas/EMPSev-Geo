@@ -1,0 +1,5 @@
+rootProject.name = 'EPMG7'
+include 'EPM-core'
+include 'EPM-web'
+include 'Common'
+
