@@ -1,5 +1,6 @@
-rootProject.name = 'EPMG7'
+rootProject.name = 'ProjectEPM'
 include 'EPM-core'
-include 'EPM-web'
-include 'Common'
-
+include 'common'
+include 'adapters:EPM-web'
+include 'adapters:EPM-persistence'
+include 'EPM-configuration'

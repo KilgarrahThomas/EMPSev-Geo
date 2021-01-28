@@ -1,0 +1,7 @@
+{
+  "dateLibrary": "java8",
+  "hideGenerationTimestamp": true,
+  "modelPackage": "br.com.medium.arthurfnsc.petstore.swagger.model",
+  "apiPackage": "br.com.medium.arthurfnsc.petstore.swagger.api",
+  "invokerPackage": "br.com.medium.arthurfnsc.petstore.swagger"
+}

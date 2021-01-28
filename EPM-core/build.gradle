@@ -10,9 +10,21 @@ repositories {
 }
 
 dependencies {
-    implementation 'junit:junit:4.12'
+
+    implementation project(':common')
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.4.0'
-    compile group: 'org.postgresql', name: 'postgresql', version: '42.2.18'
-    implementation 'org.jetbrains:annotations:19.0.0'
+
+    compileOnly 'org.projectlombok:lombok:1.18.12'
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.12'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+    compile 'org.hibernate.validator:hibernate-validator:6.1.6.Final'
+
+    compile 'org.apache.tomcat.embed:tomcat-embed-el:9.0.33'
+
+
+    compile 'org.springframework.boot:spring-boot-starter-test:2.3.5.RELEASE'
 }

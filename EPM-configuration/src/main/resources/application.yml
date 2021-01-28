@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://127.0.0.1:5432/epm?user=postgres&password=root
+    platform: postgres
+    initialization-mode: always
+    continue-on-error: true

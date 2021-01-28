@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/EMPSev-Geo.iml" filepath="$PROJECT_DIR$/.idea/EMPSev-Geo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adapters/EPM-persistence/ProjectEPM.adapters.EPM-persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/adapters/EPM-persistence/ProjectEPM.adapters.EPM-persistence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adapters/EPM-persistence/ProjectEPM.adapters.EPM-persistence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/adapters/EPM-persistence/ProjectEPM.adapters.EPM-persistence.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapters/adapters.iml" filepath="$PROJECT_DIR$/adapters/adapters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapters/EPM-persistence/src/main/main.iml" filepath="$PROJECT_DIR$/adapters/EPM-persistence/src/main/main.iml" />
     </modules>
   </component>
 </project>

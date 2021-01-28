@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    driverClassName: org.testcontainers.jdbc.ContainerDatabaseDriver
+    url: jdbc:tc:postgresql:9.6
+    databasePlateforme: org.hibernate.dialect.PostgreSQL9Dialect

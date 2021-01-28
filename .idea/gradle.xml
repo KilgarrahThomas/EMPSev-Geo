@@ -4,16 +4,18 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="13" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Common" />
+            <option value="$PROJECT_DIR$/EPM-configuration" />
             <option value="$PROJECT_DIR$/EPM-core" />
-            <option value="$PROJECT_DIR$/EPM-web" />
+            <option value="$PROJECT_DIR$/adapters" />
+            <option value="$PROJECT_DIR$/adapters/EPM-persistence" />
+            <option value="$PROJECT_DIR$/adapters/EPM-web" />
+            <option value="$PROJECT_DIR$/common" />
           </set>
         </option>
       </GradleProjectSettings>
